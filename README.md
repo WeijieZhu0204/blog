@@ -1,2 +1,15 @@
-# Blog
-Personal blog.
+```
+
+
+
+
+
+									Sometimes, naive.
+
+
+
+
+
+                                                      						By weijiezhu.
+```
+
