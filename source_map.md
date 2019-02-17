@@ -1,4 +1,4 @@
-# Source Map在浏览器内是如何运作的？
+# Source Map是如何在浏览器内运作的？
 
 ### source map的原理
 
