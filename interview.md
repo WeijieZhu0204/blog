@@ -12,8 +12,6 @@
 
 * **position**有哪几个值，分别相对于什么定位？
 
-* **inline**元素可以设置高度吗？
-
 * **BFC**有哪些特性，可以解决什么问题？
 
 * **clear**的作用？
@@ -22,13 +20,14 @@
 
 ## JavaScript
 
-* **\_\_proto\_\_**与**prototype**的区别?
+* **\_\_proto\_\_**、**prototype**、**constructor**的关系?
 
 * **eventloop**：输出正确的log日志。
 
   ```javascript
   // 普通
   console.log("start");
+  
   Promise.resolve().then(function() {
     console.log("p1");
   });
@@ -44,6 +43,7 @@
     .then(function() {
       console.log("p3");
   });
+  
   console.log("end");
   ```
   
@@ -115,6 +115,7 @@
 
 ## DataStructure
 
-* **数组和链表**在内存上的区别、数组的插入操作时间复杂度。
+* **数组和链表**在内存上的区别。
+* **数组**的插入操作时间复杂度是多少？如何优化成O(1)。
 * **二叉树**的深度遍历和广度遍历。
 
