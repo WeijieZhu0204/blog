@@ -98,7 +98,23 @@
   </html>
   ```
   
-  
+
+
+
+## 浏览器
+
+* 简述一下什么是同源策略，同源策略可以规避什么安全问题？
+* 跨域有哪些解决方案？
+* 跨域请求如何带上cookie？
+
+
+
+## HTTP
+
+* 简述协商缓存和强缓存机制。
+* **cache-control**设置no-store、no-cache的作用。
+
+
 
 ## Node.js
 
@@ -112,6 +128,21 @@
 * webpack4 **splitChunks** 相关概念： chunks、cacheGroups
 
 
+
+## Vue
+
+* 下面的修改方式是否响应式？
+
+  ```javascript
+  data: {
+  	arr:[{num:1}]
+  }
+  
+  this.data.arr[0].num = 2;
+  this.data.arr[0] = {num:2};
+  ```
+
+  
 
 ## DataStructure
 
