@@ -76,3 +76,4 @@ fetch需要设置**credentials：'include'**，如果是XMLHttpRequest需要设�
 同时服务器响应应该返回**Access-Control-Allow-Credentials：true**。
 
 对于需要携带cookie的请求，服务器不能设置Access-Control-Allow-Origin 的值为“*”。
+
